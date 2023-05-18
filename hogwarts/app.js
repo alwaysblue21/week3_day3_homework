@@ -37,3 +37,40 @@ const $h41 = $("<h4>");
 console.log($h41);
 $h41.text("A wand made of holly with a phoenix feather core");
 $container.append($h41);
+
+const $ul = $("<ul>");
+console.log($ul);
+$ul.attr("storage", "trunk");
+$container.append($ul);
+
+const $li = $("<li>");
+console.log($li);
+$li.text("Butter beer");
+$ul.append($li);
+
+const $li1 = $("<li>");
+console.log($li1);
+$li1.addClass("secret").text("invisibility cloak");
+$ul.append($li1);
+
+const $li2 = $("<li>");
+console.log($li2);
+$li2.addClass("secret").text("magic map");
+$ul.append($li2);
+
+const $li3 = $("<li>");
+console.log($li3);
+$li3.addClass("secret").text("time turner");
+$ul.append($li3);
+
+const $li4 = $("<li4>");
+console.log($li4);
+$li4.addClass("owl").text("leash");
+$ul.append($li4);
+
+const $li5 = $("<li>");
+console.log($li5);
+$li5.text("Bertie Bott's Every Flavor [Jelly] Beans");
+$ul.append($li5);
+
+
