@@ -63,7 +63,7 @@ console.log($li3);
 $li3.addClass("secret").text("time turner");
 $ul.append($li3);
 
-const $li4 = $("<li4>");
+const $li4 = $("<li>");
 console.log($li4);
 $li4.addClass("owl").text("leash");
 $ul.append($li4);
@@ -73,4 +73,9 @@ console.log($li5);
 $li5.text("Bertie Bott's Every Flavor [Jelly] Beans");
 $ul.append($li5);
 
+const $h5 = document.querySelector("h5");
+$container.append($h5);
+
+const $table = document.querySelector("table");
+$container.append($table);
 
