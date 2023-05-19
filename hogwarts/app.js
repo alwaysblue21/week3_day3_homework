@@ -95,4 +95,22 @@ $li5.addClass("owl");
 $li5.removeClass("owl");
 $li4.addClass("owl");
 
+///////////////////////////////////////////////////////////year6
+// Nosey roommate alert! hide (use jQuery method hide) to hide all your belongings with a class of secret (give an argument of 'slow' - to see this function in action)
+// Nosey roommate falls asleep 2 seconds later (chain the jQuery method delay on your hide method (give argument of at least 2000) to prevent showing your secret elements too soon.
+$(".secret").hide("slow").delay(2000);
+
+// Use jQuery method show to reveal all of your belongings with a class of secret (give an argument of 'slow' - to see this function in action)
+$(".secret").show("slow");
+
+// add the class cabbage to your pet's leash. Do not replace your pet's leash's original class. Your pet, which also has the same class should remain unaffected
+$li4.text("leash").addClass("cabbage");
+
+// add an attribute of color:CHARTREUSE; in your main.css for all elements that have a class of cabbage
+// i did it in main.css
+
+// Fix your pet's leash by removing the class of cabbage (be sure to keep your pet's leash's original class)
+$li4.text("leash").removeClass("cabbage");
+
+
 
