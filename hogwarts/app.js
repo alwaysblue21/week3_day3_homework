@@ -112,5 +112,15 @@ $li4.text("leash").addClass("cabbage");
 // Fix your pet's leash by removing the class of cabbage (be sure to keep your pet's leash's original class)
 $li4.text("leash").removeClass("cabbage");
 
+////////////////////////////////////////////////year7
+// Update your class schedule to read 'Fall 2018'
+$("h5").text("Fall 2018");
 
+// Celebrate by buying more butter beer! Append a list item with the text 'Butter beer' as the first list item inside your unordered list with the value of trunk
+$li.insertBefore($li1);
+
+// Whoops! You broke your trunk when you stood on it while singing karaoke. Get a new storage container for your stuff; replace the unodered list's property of trunk with a new property of chest
+$ul.attr("storage", "chest");
+
+// Add some CSS to your page. Feel free to experiment and make this page your own
 
