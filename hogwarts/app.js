@@ -79,3 +79,20 @@ $container.append($h5);
 const $table = document.querySelector("table");
 $container.append($table);
 
+//////////////////////////////////////////////////////
+// Break your wand! (select the element that contains your wand and remove it)
+$h41.remove();
+//Class was hard! Drink all your butter beer! (remove just the butter beer from your list)
+$li.remove();
+// Get a new wand (add the same element back with new text describing your new wand. Be sure to insert it after your pet in the DOM)
+$h41.insertAfter($h4).text("A New Wand");
+// Make your new wand stand out by adding a color of indigo (or whatever color you like). But do it with magic (jQuery): Don't add this css in your main.css file
+$h41.css("color", "crimson");
+// Send your pet on a spy mission (remove your pet from the DOM, put it somewhere else in your HTML). Make sure your pet's leash stays in your trunk (list item with the same class as your pet inside unordered list)
+$li4.removeClass("owl");
+$li5.addClass("owl");
+// Have your pet come back (remove your pet from the DOM, put it back in its original location)
+$li5.removeClass("owl");
+$li4.addClass("owl");
+
+
