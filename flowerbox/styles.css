@@ -1,0 +1,101 @@
+/* * {
+    outline: 2px dotted green
+} */
+
+.row {
+    display: flex;
+    background-color: #92b2ba;
+}
+
+.nav {
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-item {
+    color: white;
+}
+
+.banner1 {
+    display: center;
+    height: 350px;
+    width: 100%;
+}
+
+.banner {
+    background-image: url(https://git.generalassemb.ly/AlexMerced/unit_1_html_css_js/blob/main/day_08/homework/flowerbox/imgs/banner.png?raw=true)
+}
+
+.img {
+    display: center;
+    height: 270px;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 100%;
+  }
+
+  body {
+    background-color: whitesmoke;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+.title {
+    font-size: 15px;
+    color: #92b2ba;
+}
+
+ .list {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 10px;
+    background-color: silver;
+ }
+
+ .ass {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .price {
+    text-align: center;
+    background-color: #f0a8bb;
+    padding: 15px 0;
+    color: white;
+    font-size: 15px;
+ }
+
+.caption {
+    background-color: white;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(230, 230, 237);
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.services, .services1 {
+    list-style-type: none;
+}
+
+.services1 {
+    color: #92b2ba;
+}
+
+.service {
+    font-size: 15px;
+}
